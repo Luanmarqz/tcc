@@ -1,0 +1,161 @@
+<html lang="pt-br">
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="novaagenda.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="javascript.js">
+    <script src="https://kit.fontawesome.com/c976b72373.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+
+</head>
+
+<body>
+
+    <div class="titulo">
+
+
+
+        <h1>AGENDAMENTO</h1>
+
+    </div>
+
+
+    <div class="form">
+        <form class="cad-form" id="cad-form">
+            <div class="header">
+                <h2>Novo Agendamento</h2>
+            </div>
+            <br>
+            <label for="">O que deseja agendar</label>
+            <select name="agendamento" id="selectform" onclick="selected(this.value)">
+
+                <option value="Selecione">Selecione</option>
+                <option value="Salas">Salas</option>
+                <option value="Impressão">Impressão</option>
+                <option value="Emprestimo">Emprestimo</option>
+
+
+            </select><br>
+
+            <div class="tabela2 form-control" style="display: none;">
+
+
+
+
+                <label for="horario">Horario</label>
+                <Select class="inputUser">
+                    <option value="1">Manhã</option>
+                    <option value="2">Tarde</option>
+                    <option value="3">Noite</option>
+                </Select><br>
+
+
+
+                <div class="tabela form-control" style="display: none;">
+
+                    <label for="bloco">Bloco</label>
+
+                    <Select class="inputUser">
+                        <option value="1">Bloco 1</option>
+                        <option value="2">Bloco 2</option>
+                        <option value="3">Auditorio</option>
+                        <option value="4">Mini-Auditorio</option>
+                    </Select><br>
+
+                </div>
+
+                <div class="tabela4 form-control" style="display: none;">
+
+                    <label for="emp">Emprestimo</label>
+
+                    <Select class="inputUser">
+                        <option value="1">Selecione</option>
+                        <option value="2">Controle</option>
+                        <option value="3">Caixa de Som</option>
+                        <option value="4">Extensão</option>
+                        <option value="5">Projetor</option>
+                    </Select><br>
+
+                </div>
+
+                <div class="tabela3 form-control" style="display: none;">
+                    <label for="arq_imp">Arquivo Para Impressão</label>
+                    <input type="file" class="">
+
+
+
+
+                </div>
+
+                <div class="form-control">
+
+                    <label for="data">Data do agendamento</label>
+                    <input type="date" class="inputUser" id="data"><br>
+
+
+                    <label for="email">Email para contato</label>
+
+                    <input type="email" class="inputUser"><br>
+
+                    <label for="obser">Observações</label> <br>
+                    <textarea name="" id="" cols="52" rows="7"></textarea>
+
+                    <br>
+                    <br>
+                    <button>Enviar</button>
+
+                </div>
+            </div>
+        </form><br>
+    </div>
+
+
+    </div>
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fa-solid fa-bars" id="sidebar_btn"></i>
+    </label>
+    <br>
+    <div class="sidebar">
+        <header>Menu</header>
+
+        <a href="Pagina Inicial.html" class="active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-user"></i>
+            <span>Perfil</span>
+        </a>
+        <a href="agendamento.html">
+            <i class="fa-solid fa-clipboard-list"></i>
+            <span>Agendamentos</span>
+        </a>
+        <a href="Contato.html">
+            <i class="fa-solid fa-square-phone"></i>
+            <span>Contato</span>
+        </a>
+        <a href="achados.html">
+            <i class="fa-solid fa-list"></i>
+            <span>Achados</span>
+        </a>
+        <a href="Login.html">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <span>Logout</span>
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>

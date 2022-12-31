@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="cadastro_estilo.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="titulo">
+    <h1>CADASTRO</h1>
+
+  </div>
+
+
+
+  <div class="form">
+
+    <div class="header">
+      <h2>Crie uma conta aqui</h2>
+    </div>
+    <form class="cad-form">
+
+      <div class="form-control error">
+        <label for="">Nome Completo</label>
+        <input type="text" placeholder="Digite seu nome" />
+        <i class="fas-solid fa-circle-exclamation"></i>
+        <i class="fas-solid fa-check-circle"></i>
+
+        <small>Erro</small>
+      </div>
+
+      <div class="form-control error">
+        <label for="">Matricula</label>
+        <input type="text" placeholder="Digite sua matricula" />
+        <i class="fas-solid fa-circle-exclamation"></i>
+        <i class="fas-solid fa-circle-check"></i>
+
+        <small>Erro</small>
+      </div>
+
+      <div class="form-control sucess">
+        <label for="">Senha</label><br />
+        <input type="password" placeholder="Digite sua senha" />
+        <i class="fas-solid fa-circle-exclamation"></i>
+        <i class="fas-solid fa-check-circle"></i>
+        <small>Erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="">Confirmação de senha</label><br />
+        <input type="password" placeholder="Confirme sua senha" />
+        <i class="fas-solid fa-circle-exclamation"></i>
+        <i class="fas-solid fa-check-circle"></i>
+        <small>Erro</small>
+      </div>
+
+      <div class="form-control">
+        <label for="">Aluno ou Professor?</label>
+        <select>
+          <option value="">Selecione</option>
+          <option value="">Professor</option>
+          <option value="">Aluno</option>
+          <i class="fas fa-circle-exclamation"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Erro</small>
+        </select>
+      </div>
+
+      <button class="button"><a href="Login.html">Cadastrar</a></button>
+      <br><br>
+      <p class="message">Já tem conta?<a href="Login.html">Logue aqui!</a></p>
+
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/c976b72373.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

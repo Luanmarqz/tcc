@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+
+
+
+.sidebar{
+  top: 0px;
+  width: 240px;
+	height: 100%;
+	background: #000000;
+	transition: all 0.8s ease;
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  transition-property: left;
+  margin-top: 83px;
+}
+  
+  .sidebar header{
+	font-size: 25px;
+	color: white;
+	padding: 28px;
+	background: #000000;
+	user-select: none;
+	text-align: center;
+  }
+  
+  .sidebar a{
+	display: block;
+	height: 65px;
+	width: 100%;
+	color: white;
+	line-height: 65px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	border-bottom: 1px solid black;
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	
+	transition: all 0.3s ease;
+  
+  }
+  
+  .sidebar a:hover{
+	border-left: 5px solid rgb(12, 85, 243);
+	color: rgb(12, 85, 243);
+  }
+  
+  .sidebar a i{
+	font-size: 23px;
+	margin-right: 16px;
+  }
+  
+  .sidebar a span{
+	letter-spacing: 1px;
+	
+  }
+
+  .titulo {
+    background-color:#1466c3;
+    color: #ffffff;
+    width: 100%;
+    
+    top: 0;
+  
+    
+    
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+    padding: 14px;
+    
+    
+    font-size: 18px;
+  
+    
+  
+  }
+  
+  
+  
+  body {
+    width: 100%;
+
+    background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+        
+    
+  }
+    
+    
+
+    
+    .form {
+      background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+      position: absolute;
+      margin: auto; 
+      border: 1px #014ba0;
+      border-radius: 10px;
+      width: 400px;
+      top: 20%;
+      left: 38%;
+      padding: 10px;
+      align-items: center;
+      margin: auto;
+      font-size: 18px;
+      max-width: 800px;
+      min-width: 320px;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+      color: white;
+    }
+
+    
+    
+    
+    .form button{
+        background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+      box-shadow:0 3px 8px rgba(0, 0, 0, 0.8); 
+      border: 2px;
+      font-size: 17px;
+      border-radius: 10px;
+      padding: 10px;
+      color: #f0f0f0;
+      width: 100%;
+      margin: auto;
+      cursor: pointer;
+    }
+    
+    .cad-form{
+      padding: 10px;
+    }
+  
+  
+    .form button:hover{
+      background-image: linear-gradient(to Right, rgb(8, 56, 160), rgb(23, 29, 92));
+      transition: all 3s ease;
+    }
+  
+  
+    label #sidebar_btn{
+      z-index: 1;
+      position: absolute;
+      left: 310px;
+      color: #fff;
+      font-size: 20px;
+      box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);
+      padding: 8px;
+      border-radius: 2px;
+      margin-top: -65px;
+      cursor: pointer;
+      transition: 0.5s ease;
+      transition-property: color;
+    }
+  
+  
+  
+    label #sidebar_btn:hover{
+      color: rgb(0, 119, 255);
+    }
+  
+  
+    #check:checked  ~ .sidebar {
+      left: -190px;
+      transition: all 0.5s ease;
+      transition-property: left;
+      cursor: pointer;
+    }
+    #check:checked ~.sidebar a span{
+      display: none;
+    }
+    #check:checked ~.sidebar a{
+      font-size: 20px;
+      margin-left: 170px;
+      width: 60px;
+  
+    }

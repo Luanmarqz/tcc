@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  
+  .titulo {
+    background-color:#1466c3;
+    color: #ffffff;
+    width: 100%;
+    
+    top: 0;
+  
+    
+    
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+    padding: 14px;
+    
+    
+    font-size: 18px;
+  
+    
+  
+  }
+  
+  
+  
+  body {
+    width: 100%;
+  
+    background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+      
+    color: white;
+    
+  }
+  
+  
+  
+    .form {
+      background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+      position: absolute;
+      margin: auto; 
+      border-radius: 10px;
+      box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
+      width: 400px;
+      top: 18%;
+      left: 35%;
+      padding: 20px;
+      align-items: center;
+      margin: auto;
+      font-size: 12px;
+    }
+  .header {
+    background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+     padding: 15px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 18px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+.cad-form{
+    padding: 7px;
+}
+
+.form-control{
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.form-control input{
+    border: 0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+}
+
+.form-control i{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+   
+
+}
+
+.form-control small{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-image: linear-gradient(to Right,#0a5cb8, #014ba0);
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.5); 
+    border: 0;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #f0f0f0;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+  }
+
+.form select{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form .message a{
+    color: #ffffff;
+}
+
+.form .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.form button:hover{
+    background-image: linear-gradient(to Right, rgb(8, 56, 160), rgb(23, 29, 92));
+    transition: all 3s ease;
+  }
